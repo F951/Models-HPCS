@@ -32,7 +32,7 @@ do
 		QUERIES=$j
 		echo PEERS: $PEERS
 		echo QUERIES: $QUERIES
-		{ time ./Simulador $QUERIES $CACHE $LOCALCACHE $LCACHE $PEERS 16 Datasets/RISE_16M.DAT $USERS $THAO $RS $PS $CR 10  1 2 >> salida_background-$PEERS-$QUERIES.txt ; } 2>> time.txt &  
+		{ time ./Simulador $QUERIES $CACHE $LOCALCACHE $LCACHE $PEERS 16 Datasets/RISE_20000.DAT $USERS $THAO $RS $PS $CR 10  1 2 >> salida_background-$PEERS-$QUERIES.txt ; } 2>> time.txt &  
 		psrecord $(pgrep Simulador) --log activity-$PEERS-$QUERIES.txt  --interval 0.1 --plot plot-$PEERS-$QUERIES.png
 		#cd ..
 	done
