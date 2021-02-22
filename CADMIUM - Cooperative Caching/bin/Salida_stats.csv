@@ -1,0 +1,2 @@
+time;Peers;nQueriesOut;terminadas;queries_in;queries_WSE;hitLocal;hitGlobal;misses;avHops;nReplicas;gini;avLat
+0.013001;100;20;20;20;13;3;4;13;2.65;0;0.921;4.02e-05
