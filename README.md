@@ -11,9 +11,6 @@ For example:
    
 ## Requirements:
 - To compile the Cooperative Caching example in LibCppSim, it is necessary to properly install the OpenSSL library, which is used to generate the node IDs for the routing tables through a hash function. 
-- For the simulator execution scripts it is necessary to previously install the tool “psrecord”. 
-
-### Note: 
-The "pseudocode" file contains pseudo-codes of the main modules of the Cooperative Caching case study for Cadmium. 
+- For the simulator execution scripts it is necessary to previously install the tool “psrecord”: https://pypi.org/project/psrecord/. 
 
 
